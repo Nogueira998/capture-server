@@ -16,6 +16,7 @@ const UserSchema = new Schema({
     required: true,
     default: "USER",
   },
+  pictureUrl: { type: String, trim: true , default: "https://res.cloudinary.com/df3hkyurq/image/upload/v1633033999/user_pictures/avatar_rgbw6g.png"},
 });
 
 const UserModel = model("User", UserSchema);

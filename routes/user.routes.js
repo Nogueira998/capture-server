@@ -8,6 +8,16 @@ const attachCurrentUser = require("../middlewares/attachCurrentUser");
 
 const salt_rounds = 10;
 
+const uploader = require("../config/cloudinary.config")
+
+//Rota upload de foto
+router.post("/image-upload", uploader.single("picture"),(req,res,next)=>{
+  if(!req.file){
+    return next(new Error("Error on upload"))
+  }
+  return res.status(201).json({url: req.file.path})
+})
+
 // Crud (CREATE) - HTTP POST
 // Criar um novo usuário
 router.post("/signup", async (req, res) => {
@@ -15,8 +25,8 @@ router.post("/signup", async (req, res) => {
   console.log(req.body);
 
   try {
-    // Recuperar a senha que está vindo do corpo da requisição
-    const { password } = req.body;
+    // Recuperar a senha e foto que está vindo do corpo da requisição
+    const { password , pictureUrl} = req.body;
 
     // Verifica se a senha não está em branco ou se a senha não é complexa o suficiente
     if (
@@ -41,6 +51,7 @@ router.post("/signup", async (req, res) => {
     const result = await UserModel.create({
       ...req.body,
       passwordHash: hashedPassword,
+      pictureUrl
     });
 
     // Responder o usuário recém-criado no banco para o cliente (solicitante). O status 201 significa Created
@@ -82,6 +93,7 @@ router.post("/login", async (req, res) => {
           email: user.email,
           _id: user._id,
           role: user.role,
+          pictureUrl:user.pictureUrl
         },
         token,
       });
