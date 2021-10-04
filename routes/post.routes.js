@@ -44,7 +44,7 @@ router.delete(
     PostModel.deleteOne({ _id: ObjectId(req.params.id) })
       .then((result) => {
         if (result.deletedCount < 1) {
-          return res.status(404).json({ msg: "Projeto não encontrado" });
+          return res.status(404).json({ msg: "Post not found" });
         }
         // Deletar todas os comentários relacionados
         CommentModel.deleteMany({ postId: ObjectId(req.params.id) })

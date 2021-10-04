@@ -47,7 +47,7 @@ router.post("/addComment", isAuthenticated, attachCurrentUser, async (req, res, 
       const result = await CommentModel.deleteOne({ _id: id });
   
       if (result.deletedCount < 1) {
-        return res.status(404).json({ msg: "Tarefa não encontrada." });
+        return res.status(404).json({ msg: "Comment not found" });
       }
   
       return res.status(200).json({});
