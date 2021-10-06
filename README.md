@@ -6,7 +6,7 @@ Inspired by Instagram, this project simulates a social network in a simple way. 
 
 ## Try now!
 
-You can test the project on this [link]()
+You can test the project on this [link](https://captureapp.netlify.app/)
 
 ## Front-end
 
