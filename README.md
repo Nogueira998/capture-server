@@ -1,5 +1,5 @@
 # Capture Social Media
-[!capture logo](https://res.cloudinary.com/df3hkyurq/image/upload/v1632990983/user_pictures/capture-logo_weqar2.png)
+[!capturelogo](https://res.cloudinary.com/df3hkyurq/image/upload/v1632990983/user_pictures/capture-logo_weqar2.png)
 
 ## About this project
 
