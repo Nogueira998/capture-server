@@ -8,8 +8,6 @@ Inspired by Instagram, this project simulates a social network in a simple way. 
 
 You can test the project on this [link]()
 
-!(https://tecnoblog.net/wp-content/uploads/2018/10/InstagramGIF.gif)
-
 ## Front-end
 
 Checkout the front-end on this [link](https://github.com/Nogueira998/capture-client)
