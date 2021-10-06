@@ -12,9 +12,9 @@ You can test the project on this [link]()
 
 Checkout the front-end on this [link]()
 
-## Technologies
+## Find more about
 
-HTML / CSS / JS / React / Bootstrap / Mongo DB / Express / Node js
+Find more about on this [link]()
 
 ## Find more about
 
