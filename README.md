@@ -1,53 +1,33 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+# Capture Social Media
 
-# IronREST Boilerplate
+## About this project
 
-Esse boilerplate para API RESTful já inclui:
+Inspired by Instagram, this project simulates a social network in a simple way. Ensuring that the CRUD functions (Create, Read, Update and Delete) this app in completely full-stack. You can create your account with security, post your photos and add comments to the posts of your friends. 
 
-- Autenticação por tokens JWT usando o Passport
-- Conexão com banco de dados MongoDB usando Mongoose
-- Servidor Web usando Express pré-configurado com CORS e aceitando requisições JSON e Multipart Form
-- Upload de arquivos usando Cloudinary e Multer
+## Try now!
 
-## Para Começar
+You can test the project on this [link]()
 
-- Faça o fork e clone deste repositório
+## Front-end
 
-## Instalação
+Checkout the front-end on this [link]()
 
-```shell
-$ npm install
-```
+## Technologies
 
-## Desenvolvimento
+HTML / CSS / JS / React / Bootstrap / Mongo DB / Express / Node js
 
-Para iniciar o servidor web localmente execute no seu terminal:
+## Find more about
 
-```shell
-$ npm run dev
-```
+Find more about on this [link]()
 
-## Deploy do MongoDB
+## Disclaimer
 
-1. Faça login no https://account.mongodb.com/account/login?nds=true
-2. Crie um cluster gratuito
-3. Siga as instruções e obtenha a string de conexão com o banco
-4. Crie uma variável de ambiente MONGODB_URI no Heroku com a string de conexão copiada do Atlas
+This project it is part of the ninth week of the Full Stack IronHack bootcamp, where in 5 days we apply what was learned for this project.
 
-## Deploy no Heroku
+## Authors
 
-1. Faça login no Heroku e selecione seu repositório
-2. Habilite 'automatic deploys'
-3. No seu terminal, execute os seguintes comandos:
+Caio Nogueira 
+https://www.linkedin.com/in/caio-nogueira-66896352/
 
-```shell
-$ git add .
-$ git commit -m 'deploying'
-$ heroku git:remote -a nome-do-repo-no-heroku
-$ git push heroku master
-```
-
-4. Adicione uma variável de ambiente no Heroku para cada variável de ambiente presente no arquivo .env (não precisa criar a PORT no Heroku)
-5. Adicione a URL da sua API hospedada no Heroku nas variáveis de ambiente do app React no Netlify
-
-Happy coding! 💙
+Filipe Diniz 
+https://www.linkedin.com/in/filipe98freitas/
