@@ -12,7 +12,7 @@ You can test the project on this [link]()
 
 ## Front-end
 
-Checkout the front-end on this [link]()
+Checkout the front-end on this [link](https://github.com/Nogueira998/capture-client)
 
 ## Find more about
 
