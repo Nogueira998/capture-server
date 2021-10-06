@@ -16,6 +16,10 @@ Checkout the front-end on this [link](https://github.com/Nogueira998/capture-cli
 
 Find more about on this [link]()
 
+## Technologies
+
+HTML / CSS / JS / React / Bootstrap / Mongo DB / Espress / Node JS
+
 ## Disclaimer
 
 This project it is part of the ninth week of the Full Stack IronHack bootcamp, where in 5 days we apply what was learned for this project.
